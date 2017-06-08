@@ -51,8 +51,8 @@ class InboxViewController : UIViewController {
         self.navigationItem.titleView = SearchBar().addSearchBar()
         
         myTableView.register(CustomInboxCell.self, forCellReuseIdentifier: "InboxCell")
-         //self.view.endEditing(true)
         setupView()
+        
     }
 
     func setupView(){
@@ -76,8 +76,25 @@ class InboxViewController : UIViewController {
         myLabel.heightAnchor.constraint(equalToConstant: 40).isActive = true
         myLabel.sizeToFit()
     }
+    
+    func anime(){
+        myTableView.reloadData()
+        let cells = myTableView.visibleCells
+        var delay: Double = 0
+        for i in cells{
+            i.transform = CGAffineTransform(translationX: 0, y: myTableView.frame.height)
+            
+        }
+        for i in cells{
+            
+            UIView.animate(withDuration: 1.75, delay: delay*0.05, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+                i.transform = CGAffineTransform.identity;
+                delay += 1}, completion: nil)
+        }
+
  
 
+ }
 }
 
 extension InboxViewController : UITableViewDelegate, UITableViewDataSource{
@@ -88,10 +105,10 @@ extension InboxViewController : UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
       
-        let cell = tableView.dequeueReusableCell(withIdentifier: "InboxCell")
-        cell?.contentView.backgroundColor = UIColor(red: 240/255, green: 240/255, blue: 240/255, alpha: 1)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "InboxCell") as! CustomInboxCell
+        cell.contentView.backgroundColor = UIColor(rgb: 0xFFFFFF)
         
-        return cell!
+        return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -99,6 +116,6 @@ extension InboxViewController : UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        anime()
     }
 }

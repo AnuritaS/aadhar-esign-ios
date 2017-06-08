@@ -11,7 +11,6 @@
 		737F99006A803B8357391816 /* Pods_Aadhaar_eSignTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8545274730003F755D39CA8 /* Pods_Aadhaar_eSignTests.framework */; };
 		DF080C561EA27C0900E8408F /* RemoteConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF080C551EA27C0900E8408F /* RemoteConfig.plist */; };
 		DF1774A51EAA13AB00AD5B7F /* DocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1774A41EAA13AB00AD5B7F /* DocumentsViewController.swift */; };
-		DF1774A71EAA13B200AD5B7F /* CustomDocumentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1774A61EAA13B200AD5B7F /* CustomDocumentCell.swift */; };
 		DF1774B01EAB81C800AD5B7F /* circular-black-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF1774A81EAB81C800AD5B7F /* circular-black-italic.otf */; };
 		DF1774B11EAB81C900AD5B7F /* circular-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF1774A91EAB81C800AD5B7F /* circular-black.otf */; };
 		DF1774B21EAB81C900AD5B7F /* circular-bold-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF1774AA1EAB81C800AD5B7F /* circular-bold-italic.otf */; };
@@ -23,10 +22,17 @@
 		DF1774BA1EB6094900AD5B7F /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1774B91EB6094900AD5B7F /* InboxViewController.swift */; };
 		DF1774BC1EB62BF200AD5B7F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1774BB1EB62BF200AD5B7F /* HomeViewController.swift */; };
 		DF1774BE1EB63B6F00AD5B7F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1774BD1EB63B6F00AD5B7F /* SearchBar.swift */; };
-		DF1774C01EB6416D00AD5B7F /* CustomInboxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1774BF1EB6416D00AD5B7F /* CustomInboxCell.swift */; };
 		DF1774C61EB6957B00AD5B7F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1774C51EB6957B00AD5B7F /* ProfileViewController.swift */; };
+		DF2109441EC724160079B40F /* HexCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2109431EC724160079B40F /* HexCode.swift */; };
+		DF2D2B381EBB664500E388EB /* CustomProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D2B371EBB664500E388EB /* CustomProfileCell.swift */; };
+		DF2D2B3A1EBB74E400E388EB /* DocumentIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D2B391EBB74E400E388EB /* DocumentIDViewController.swift */; };
 		DF36AFB81E9D230300C9AEE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF36AFB71E9D230300C9AEE7 /* GoogleService-Info.plist */; };
 		DF36AFBA1E9D24F400C9AEE7 /* ServiceAccount.json in Resources */ = {isa = PBXBuildFile; fileRef = DF36AFB91E9D24F400C9AEE7 /* ServiceAccount.json */; };
+		DFEECAC81EE80B0700EF8200 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DFEECAC71EE80B0700EF8200 /* Podfile */; };
+		DFEECADC1EE964FA00EF8200 /* DocMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEECADB1EE964FA00EF8200 /* DocMenuBar.swift */; };
+		DFEECADE1EE9650F00EF8200 /* CustomInboxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEECADD1EE9650F00EF8200 /* CustomInboxCell.swift */; };
+		DFEECAE01EE9651400EF8200 /* CustomDocumentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEECADF1EE9651400EF8200 /* CustomDocumentCell.swift */; };
+		DFEECAE21EE965B500EF8200 /* DocMenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEECAE11EE965B500EF8200 /* DocMenuBarCell.swift */; };
 		E768BD601E8D6001003A0B06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E768BD5F1E8D6001003A0B06 /* AppDelegate.swift */; };
 		E768BD621E8D6001003A0B06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E768BD611E8D6001003A0B06 /* ViewController.swift */; };
 		E768BD651E8D6001003A0B06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E768BD631E8D6001003A0B06 /* Main.storyboard */; };
@@ -53,7 +59,6 @@
 		BC27E8D8890EBA767E98D8C2 /* Pods-Aadhaar eSignTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aadhaar eSignTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aadhaar eSignTests/Pods-Aadhaar eSignTests.release.xcconfig"; sourceTree = "<group>"; };
 		DF080C551EA27C0900E8408F /* RemoteConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RemoteConfig.plist; sourceTree = "<group>"; };
 		DF1774A41EAA13AB00AD5B7F /* DocumentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentsViewController.swift; sourceTree = "<group>"; };
-		DF1774A61EAA13B200AD5B7F /* CustomDocumentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDocumentCell.swift; sourceTree = SOURCE_ROOT; tabWidth = 5; };
 		DF1774A81EAB81C800AD5B7F /* circular-black-italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "circular-black-italic.otf"; path = "Fonts/circular-black-italic.otf"; sourceTree = SOURCE_ROOT; };
 		DF1774A91EAB81C800AD5B7F /* circular-black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "circular-black.otf"; path = "Fonts/circular-black.otf"; sourceTree = SOURCE_ROOT; };
 		DF1774AA1EAB81C800AD5B7F /* circular-bold-italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "circular-bold-italic.otf"; path = "Fonts/circular-bold-italic.otf"; sourceTree = SOURCE_ROOT; };
@@ -65,10 +70,17 @@
 		DF1774B91EB6094900AD5B7F /* InboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
 		DF1774BB1EB62BF200AD5B7F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DF1774BD1EB63B6F00AD5B7F /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
-		DF1774BF1EB6416D00AD5B7F /* CustomInboxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomInboxCell.swift; path = ../CustomInboxCell.swift; sourceTree = "<group>"; };
 		DF1774C51EB6957B00AD5B7F /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DF2109431EC724160079B40F /* HexCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexCode.swift; sourceTree = "<group>"; };
+		DF2D2B371EBB664500E388EB /* CustomProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomProfileCell.swift; sourceTree = "<group>"; };
+		DF2D2B391EBB74E400E388EB /* DocumentIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentIDViewController.swift; sourceTree = "<group>"; };
 		DF36AFB71E9D230300C9AEE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		DF36AFB91E9D24F400C9AEE7 /* ServiceAccount.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ServiceAccount.json; sourceTree = SOURCE_ROOT; };
+		DFEECAC71EE80B0700EF8200 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		DFEECADB1EE964FA00EF8200 /* DocMenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocMenuBar.swift; sourceTree = "<group>"; };
+		DFEECADD1EE9650F00EF8200 /* CustomInboxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInboxCell.swift; sourceTree = "<group>"; };
+		DFEECADF1EE9651400EF8200 /* CustomDocumentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDocumentCell.swift; sourceTree = "<group>"; };
+		DFEECAE11EE965B500EF8200 /* DocMenuBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocMenuBarCell.swift; sourceTree = "<group>"; };
 		E768BD5C1E8D6001003A0B06 /* Aadhaar eSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aadhaar eSign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E768BD5F1E8D6001003A0B06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E768BD611E8D6001003A0B06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +154,8 @@
 			children = (
 				DF1774BB1EB62BF200AD5B7F /* HomeViewController.swift */,
 				DF1774A41EAA13AB00AD5B7F /* DocumentsViewController.swift */,
+				DF2109431EC724160079B40F /* HexCode.swift */,
+				DF2D2B391EBB74E400E388EB /* DocumentIDViewController.swift */,
 				DF1774B91EB6094900AD5B7F /* InboxViewController.swift */,
 				DF1774C51EB6957B00AD5B7F /* ProfileViewController.swift */,
 			);
@@ -151,9 +165,12 @@
 		DF1774C21EB694D400AD5B7F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DF1774A61EAA13B200AD5B7F /* CustomDocumentCell.swift */,
-				DF1774BF1EB6416D00AD5B7F /* CustomInboxCell.swift */,
+				DF2D2B371EBB664500E388EB /* CustomProfileCell.swift */,
+				DFEECADF1EE9651400EF8200 /* CustomDocumentCell.swift */,
+				DFEECADD1EE9650F00EF8200 /* CustomInboxCell.swift */,
 				DF1774BD1EB63B6F00AD5B7F /* SearchBar.swift */,
+				DFEECADB1EE964FA00EF8200 /* DocMenuBar.swift */,
+				DFEECAE11EE965B500EF8200 /* DocMenuBarCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -176,6 +193,7 @@
 				E768BD661E8D6001003A0B06 /* Assets.xcassets */,
 				E768BD631E8D6001003A0B06 /* Main.storyboard */,
 				DF36AFB91E9D24F400C9AEE7 /* ServiceAccount.json */,
+				DFEECAC71EE80B0700EF8200 /* Podfile */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -312,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFEECAC81EE80B0700EF8200 /* Podfile in Resources */,
 				DF1774B61EAB81C900AD5B7F /* circular-medium-italic.otf in Resources */,
 				DF1774B11EAB81C900AD5B7F /* circular-black.otf in Resources */,
 				DF1774B51EAB81C900AD5B7F /* circular-book.otf in Resources */,
@@ -341,7 +360,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		19482A047A0F66233B0F7895 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -349,7 +368,7 @@
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aadhaar eSign/Pods-Aadhaar eSign-resources.sh\"\n";
 			showEnvVarsInLog = 0;
@@ -371,7 +390,7 @@
 		};
 		599ADD154B2A978E64A8F48D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -379,7 +398,7 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
@@ -449,12 +468,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFEECAE01EE9651400EF8200 /* CustomDocumentCell.swift in Sources */,
 				DF1774BE1EB63B6F00AD5B7F /* SearchBar.swift in Sources */,
 				DF1774BA1EB6094900AD5B7F /* InboxViewController.swift in Sources */,
+				DF2D2B3A1EBB74E400E388EB /* DocumentIDViewController.swift in Sources */,
 				DF1774A51EAA13AB00AD5B7F /* DocumentsViewController.swift in Sources */,
-				DF1774C01EB6416D00AD5B7F /* CustomInboxCell.swift in Sources */,
-				DF1774A71EAA13B200AD5B7F /* CustomDocumentCell.swift in Sources */,
+				DFEECADC1EE964FA00EF8200 /* DocMenuBar.swift in Sources */,
 				E768BD621E8D6001003A0B06 /* ViewController.swift in Sources */,
+				DFEECAE21EE965B500EF8200 /* DocMenuBarCell.swift in Sources */,
+				DF2D2B381EBB664500E388EB /* CustomProfileCell.swift in Sources */,
+				DFEECADE1EE9650F00EF8200 /* CustomInboxCell.swift in Sources */,
+				DF2109441EC724160079B40F /* HexCode.swift in Sources */,
 				DF1774C61EB6957B00AD5B7F /* ProfileViewController.swift in Sources */,
 				E768BD601E8D6001003A0B06 /* AppDelegate.swift in Sources */,
 				DF1774BC1EB62BF200AD5B7F /* HomeViewController.swift in Sources */,

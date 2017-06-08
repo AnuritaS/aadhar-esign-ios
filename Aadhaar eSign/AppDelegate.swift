@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = newWindow
         window?.rootViewController = setTabBar()
         
-        FIRApp.configure()
+       // FIRApp.configure()
         FIRCrashMessage("Crash button pressed")
         //fatalError()
         return true
@@ -43,7 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         tabBarController.viewControllers = [home, navDocuments, navInbox, navProfile]
 
         let tabbar = tabBarController.tabBar
-        //tabB
+        //tabBar
         tabbar.barTintColor = UIColor(red: 170/255, green: 170/255, blue: 170/255, alpha: 1)
         
         let attributes = [NSFontAttributeName:UIFont(name: "CircularStd-Medium", size: 13)!,NSForegroundColorAttributeName:UIColor(red: 194/255, green: 194/255, blue: 194/255, alpha: 1)]

@@ -13,6 +13,8 @@ pod ‘Firebase/Messaging’
 pod 'Firebase/DynamicLinks'
 pod 'Firebase/Crash'
 pod 'Firebase/RemoteConfig'
+pod 'PDFReader'
+pod 'Floaty', '~> 3.0.0'
 
   target 'Aadhaar eSignTests' do
     inherit! :search_paths

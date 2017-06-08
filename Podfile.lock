@@ -56,6 +56,7 @@ PODS:
     - FirebaseInstanceID (~> 1.0)
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
     - Protobuf (~> 3.1)
+  - Floaty (3.0.0)
   - GoogleAPIClientForREST (1.2.1):
     - GoogleAPIClientForREST/Core (= 1.2.1)
     - GTMSessionFetcher (>= 1.1.7)
@@ -94,6 +95,7 @@ PODS:
   - GTMSessionFetcher/Core (1.1.9)
   - GTMSessionFetcher/Full (1.1.9):
     - GTMSessionFetcher/Core (= 1.1.9)
+  - PDFReader (2.3.0)
   - Protobuf (3.2.0)
 
 DEPENDENCIES:
@@ -103,6 +105,8 @@ DEPENDENCIES:
   - Firebase/Invites
   - Firebase/Messaging
   - Firebase/RemoteConfig
+  - Floaty (~> 3.0.0)
+  - PDFReader
 
 SPEC CHECKSUMS:
   Firebase: 2b1cdfba1cda8589f32904a697cc753322bff9d8
@@ -114,13 +118,15 @@ SPEC CHECKSUMS:
   FirebaseInvites: bc06c54ea906bd4f5d803bad1ba82208c8bd763d
   FirebaseMessaging: df8267f378580a24174ce7861233aa11d5c90109
   FirebaseRemoteConfig: af3003f4e8daa2bd1d5cf90d3cccc1fe224f8ed9
+  Floaty: d1be5d323094f0de422bb615452d00ba26ac74dd
   GoogleAPIClientForREST: a8b95a252014ce2e618df6b75dc72eca2c00b4af
   GoogleSignIn: d7ad83f13480e1f30453471d00d19b5293ac46af
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
   GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
+  PDFReader: d7c84ecd0cabf9c9e5828e260849b88ca8dee55f
   Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
 
-PODFILE CHECKSUM: 059433cd113dcffd846cd1974584cd7016e318d1
+PODFILE CHECKSUM: faf24944ee563a619ddb6a0f2112b97bf8e50bb3
 
 COCOAPODS: 1.2.0
